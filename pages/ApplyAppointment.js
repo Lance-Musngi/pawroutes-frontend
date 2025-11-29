@@ -69,7 +69,7 @@ export default function ApplyAppointment({ navigation }) {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <Text style={styles.title}>Book Appointment</Text>
+      <Text style={styles.title}>Pet Appointment</Text>
 
       <TextInput style={styles.input} placeholder="Pet Name" onChangeText={setPetName} value={petName} />
       <TextInput style={styles.input} placeholder="Owner Name" onChangeText={setOwnerName} value={ownerName} />
