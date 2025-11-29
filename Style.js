@@ -134,5 +134,73 @@ export default StyleSheet.create({
   statusText: {
     color: "white",
     fontWeight: "bold",
-  }
+  },
+
+  // -------- ApplyAppointment specific styles --------
+  rowInputButton: {
+    flexDirection: "row",
+    alignItems: "center",
+    width: "85%",
+    marginVertical: 8,
+  },
+
+  smallButton: {
+    backgroundColor: "#FFB84C",
+    paddingVertical: 10,
+    paddingHorizontal: 15,
+    borderRadius: 12,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+
+  servicePicker: {
+    borderWidth: 1,
+    borderColor: "#FFDE8F",
+    borderRadius: 12,
+    width: "85%",
+    marginVertical: 8,
+    backgroundColor: "white",
+  },
+
+  // Service Type container (standalone)
+serviceContainer: {
+  borderWidth: 1,
+  borderColor: "#FFDE8F",
+  borderRadius: 12,
+  width: "85%",
+  marginVertical: 8,
+  backgroundColor: "white",
+  height: 50,
+  justifyContent: "center",
+},
+
+// Rectangle style for appointment cards
+cardRectangle: {
+  backgroundColor: "white",
+  borderRadius: 0,          // rectangle shape
+  padding: 25,              // increase internal padding
+  marginVertical: 12,       // more spacing between cards
+  width: "95%",             // wider than before
+  shadowColor: "#000",
+  shadowOpacity: 0.1,
+  shadowRadius: 3,
+  borderWidth: 1,
+  borderColor: "#FFDE8F",
+},
+
+cardTitle: {
+  fontSize: 26,             // bigger title font
+  fontWeight: "bold",
+  color: "#5C4A1E",
+  marginBottom: 8,
+},
+
+// Optional: make the status tag slightly bigger
+statusText: {
+  color: "white",
+  fontWeight: "bold",
+  fontSize: 16,
+},
+
+
 });
